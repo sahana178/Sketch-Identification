@@ -1,0 +1,35 @@
+ #sketch_button{
+float: right;
+}
+
+body{
+    background-color: #fffea6;
+}
+
+h1{
+    background-color: #fff5fe;
+    color: #4f0b48;
+}
+
+p {
+font-size: 25px;
+padding-top: 10px;
+}
+
+#clear_button{
+    margin-top: 20px;
+}
+
+canvas{
+    margin-top: 50px;
+    border: 5px solid white;
+    border-radius: 20px;
+    animation-name: shade;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shade {
+    from{box-shadow: 1px 1px 38px grey;}
+    to{box-shadow: 1px 1px 38px white;}
+}
